@@ -11,3 +11,20 @@ img {
 .soft-wrap-img{
   padding: 5px;
 }
+
+.param-label {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.param-name {
+  font-weight: bold;
+}
+
+.separator {
+  height: 1px;
+  background-color: #808080;
+  margin: 10px 0;
+}
