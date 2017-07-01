@@ -1,0 +1,13 @@
+.col-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.soft-wrap-img{
+  padding: 5px;
+}
