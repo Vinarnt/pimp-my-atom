@@ -16,7 +16,7 @@ img {
   display: inline-block;
   font-weight: bold;
   font-size: 1.1em;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 .param-name {
@@ -27,4 +27,8 @@ img {
   height: 1px;
   background-color: #808080;
   margin: 10px 0;
+}
+
+.centered {
+  text-align: center;
 }
