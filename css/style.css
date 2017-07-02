@@ -1,3 +1,7 @@
+body {
+  margin-bottom: 50px;
+}
+
 .col-title {
   text-align: center;
   font-weight: bold;
