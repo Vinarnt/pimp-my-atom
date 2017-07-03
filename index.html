@@ -14,6 +14,7 @@
 
     <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
     <script src="vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
   </head>
 
   <body>
@@ -29,11 +30,14 @@
 
       <h2>Soft Wrap</h2>
       <p>
-        Dans l'onglet "Editor", vous trouverez le paramétre "Soft Wrap". <br />
-        <img src="img/soft-wrap.png" alt="Paramétre Soft wrap" /><br />
+        Dans l'onglet "Editor", vous trouverez le paramétre "Soft Wrap".
+        <br />
+        <img src="img/soft-wrap.png" alt="Paramétre Soft wrap" />
+        <br />
       </p>
 
-      Ce dernier permet d'afficher les lignes trop longues sur plusieurs lignes.<br />
+      Ce dernier permet d'afficher les lignes trop longues sur plusieurs lignes.
+      <br />
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6">
           <div class="row col-title">
@@ -56,40 +60,64 @@
 
       <h2>Thèmes</h2>
       <p>
-        Dans atom et la plupart des editeurs de code, les thèmes sont composés de deux modules, l'interface et la syntaxe.<br /> A noté que le module syntaxe comprends aussi bien la syntaxe(le texte) que le fond de l'éditeur étant donné qu'ils sont complémentaires.<br /> Il n'y a pas de thème particulier recommandé, il s'agit des préférences de chacun. Préférez quand même des thèmes qui rendent le tout facilement lisible.
+        Dans atom et la plupart des editeurs de code, les thèmes sont composés de deux modules, l'interface et la syntaxe.
+        <br /> A noté que le module syntaxe comprends aussi bien la syntaxe(le texte) que le fond de l'éditeur étant donné qu'ils sont complémentaires.
+        <br /> Il n'y a pas de thème particulier recommandé, il s'agit des préférences de chacun. Préférez quand même des thèmes qui rendent le tout facilement lisible.
       </p>
       <p>
-        Les thèmes peuvent être téléchargés depuis atom dans l'onglet "Install. "<br /> A droite du champ de recherche, choisissez "Themes " au lieu de "Packages ".<br /> Ensuite entrez les mots clés définissants le genre de thèmes que vous souhaitez installer.
+        Les thèmes peuvent être téléchargés depuis atom dans l'onglet "Install".
+        <br /> A droite du champ de recherche, choisissez "Themes " au lieu de "Packages".
+        <br /> Ensuite entrez les mots clés définissants le genre de thèmes que vous souhaitez installer.
         <br />
-        <img src="img/search-theme.png " alt="Recherche de thèmes " /><br /> Cliquez sur "Install " à droite du thème pour l'installer.<br />
-        <img src="img/theme-install.png " alt="Thème à installer " /><br />
+        <img src="img/search-theme.png " alt="Recherche de thèmes" />
+        <br /> Cliquez sur "Install" à droite du thème pour l'installer.
+        <br />
+        <img src="img/theme-install.png " alt="Thème à installer" />
+        <br />
       </p>
 
       <p>
-        Une fois l'installation terminée, vous pourrez l'appliquer dans l'onglet "Themes ".<br />
-        <img src="img/theme-apply.png " alt="Application du thème " /><br /> Ici il s'agit d'un thème pour la syntaxe mais la marche à suivre pour un thème d'interface est exactement le même.<br /> A noter qu'Atom sera gelé durant l'application du thème.
+        Une fois l'installation terminée, vous pourrez l'appliquer dans l'onglet "Themes".
+        <br />
+        <img src="img/theme-apply.png " alt="Application du thème" />
+        <br /> Ici il s'agit d'un thème pour la syntaxe mais la marche à suivre pour un thème d'interface est exactement le même.
+        <br /> A noter qu'Atom sera gelé durant l'application du thème.
       </p>
 
       <h2>Les paquets</h2> Plus courrament appellés plugins, extensions, addons ou encore greffons, ce sont des fonctionnalitées qui s'ajoutent au logiciel.
 
-      <h3>Installation</h3> Direction l'onglet "Install". C'est ici que vous trouverez tout les paquets à installer et désinstaller. La configuration se fera dans l'onglet "Packages" pour des raisons pratiques.<br /> Pour installer un paquet, rien de plus simple, entrez dans le champ de recherche ce que vous voulez installer.<br />
-      <img src="img/package-install.png" alt="Paquet à installer"><br /> Placez votre curseur sur le bouton "Install", pressez le clic gauche de la souris et voila, après un long moment (variable selon le paquet), le paquet est installé et prêt à être utilisé dans sa configuration de base.<br />
-      <img src="img/package-installed.png" alt="Paquet installé"><br />
+      <h3>Installation</h3> Direction l'onglet "Install". C'est ici que vous trouverez tout les paquets à installer et désinstaller. La configuration se fera dans l'onglet "Packages" pour des raisons pratiques.
+      <br /> Pour installer un paquet, rien de plus simple, entrez dans le champ de recherche ce que vous voulez installer.
+      <br />
+      <img src="img/package-install.png" alt="Paquet à installer">
+      <br /> Placez votre curseur sur le bouton "Install", pressez le clic gauche de la souris et voila, après un long moment (variable selon le paquet), le paquet est installé et prêt à être utilisé dans sa configuration de base.
+      <br />
+      <img src="img/package-installed.png" alt="Paquet installé">
+      <br />
 
-      <h3>Gestion</h3> Pour accéder aux paquets installés, il faut aller dans l'onglet "Packages".<br /> Utilisez la barre de recherche pour trouver rapidement le paquet que vous voulez gérer.<br />
-      <img src="img/packages-searchbar.png" alt="Barre de recherche des paquets" /><br /> Cherchez un paquet, par exemple, autosave. Vous tombez sur un résultat et avez la possibilité de le désactiver (boutton "disable") ou d'accéder à ses préférences (boutton "settings").<br />
+      <h3>Gestion</h3> Pour accéder aux paquets installés, il faut aller dans l'onglet "Packages".
+      <br /> Utilisez la barre de recherche pour trouver rapidement le paquet que vous voulez gérer.
+      <br />
+      <img src="img/packages-searchbar.png" alt="Barre de recherche des paquets" />
+      <br /> Cherchez un paquet, par exemple, autosave. Vous tombez sur un résultat et avez la possibilité de le désactiver (boutton "disable") ou d'accéder à ses préférences (boutton "settings").
+      <br />
       <img src="img/package-result.png" alt="Résultat de la recherche de paquet" />
 
       <h3>Paquets utiles</h3>
 
-      <h4><a href="https://atom.io/packages/autosave">autosave</a></h4> Le paquet autosave permet de sauvegarder vos fichiers automatiquement lorsque vous changez de fenêtre. C'est aussi valable pour le changement d'onglet.<br /> Très pratique pour ceux qui ont l'habitude de travailler sur des éditeurs qui sauvegardent instantanément chaque modifications et à double tranchant pour ceux qui ont l'habitude de sauvegarder à la mano comme dans le temps.<br /><br /> Malgrès le fait que ce soit un paquet natif de l'éditeur, il n'est pas activé par défaut. Il faut donc aller l'activer dans ses paramétres.<br />
+      <h4><a href="https://atom.io/packages/autosave">autosave</a></h4> Le paquet autosave permet de sauvegarder vos fichiers automatiquement lorsque vous changez de fenêtre. C'est aussi valable pour le changement d'onglet.
+      <br /> Très pratique pour ceux qui ont l'habitude de travailler sur des éditeurs qui sauvegardent instantanément chaque modifications et à double tranchant pour ceux qui ont l'habitude de sauvegarder à la mano comme dans le temps.
+      <br />
+      <br /> Malgrès le fait que ce soit un paquet natif de l'éditeur, il n'est pas activé par défaut. Il faut donc aller l'activer dans ses paramétres.
+      <br />
       <img src="img/enable-autosave.png" alt="Activer autosave" />
 
       <div class="separator"></div>
 
       <h4><a href="https://atom.io/packages/w3c-validation">w3c-validation</a></h4>
       <p>
-        Ce paquet est tout simplement l'intégration dans atom du validateur html/css w3c officiel. Il nécessite une connection internet étant donné qu'il ne fait qu'envoyer le fichier aux serveurs de validations w3c (les mêmes que vous utilisez quand vous validez sur le site du w3c), ce qui peux provoquer une latence plus ou moins importante selon les connections.
+        Ce paquet est tout simplement l'intégration dans atom du validateur html/css w3c officiel. Il nécessite une connection internet étant donné qu'il ne fait qu'envoyer le fichier aux serveurs de validations w3c (les mêmes que vous utilisez quand vous validez
+        sur le site du w3c), ce qui peux provoquer une latence plus ou moins importante selon les connections.
       </p>
 
       <span class="param-label">Paramétres utiles</span>
@@ -112,28 +140,33 @@
 
       <h4><a href="https://atom.io/packages/emmet">emmet</a></h4>
       <p>
-        Emmet permet de produire rapidement du code html en utilisant une syntaxe simple à prendre en main.<br /> Plus d'information sur le <a href="https://docs.emmet.io/">site officiel</a>.<br /><br /> Pour transformer la syntaxe emmet en code html, utilisez la touche de tabulation ou la combinaison de touche ctrl + e.<br /><br />
+        Emmet permet de produire rapidement du code html en utilisant une syntaxe simple à prendre en main.
+        <br /> Plus d'information sur le <a href="https://docs.emmet.io/">site officiel</a>.
+        <br />
+        <br /> Pour transformer la syntaxe emmet en code html, utilisez la touche de tabulation ou la combinaison de touche ctrl + e.
+        <br />
+        <br />
       </p>
 
-      Par exemple l'expression emmet suivante<br />
-      <pre>
-          <code>
-            div.container>div.row*2>div.col-sm-12.col-md-6*2
-          </code>
-        </pre> Produira le code html suivant<br />
-      <pre>
-          <code>
-            &lt;div class=&quot;container&quot;&gt;
-              &lt;div class=&quot;row&quot;&gt;
-                &lt;div class=&quot;col-sm-12 col-md-6&quot;&gt;&lt;/div&gt;
-                &lt;div class=&quot;col-sm-12 col-md-6&quot;&gt;&lt;/div&gt;
-              &lt;/div&gt;
-              &lt;div class=&quot;row&quot;&gt;
-                &lt;div class=&quot;col-sm-12 col-md-6&quot;&gt;&lt;/div&gt;
-                &lt;div class=&quot;col-sm-12 col-md-6&quot;&gt;&lt;/div&gt;
-              &lt;/div&gt;
-          </code>
-        </pre>
+      Par exemple l'expression emmet suivante
+      <br />
+      <code class="prettyprint lang-scm">
+        div.container>div.row*2>div.col-sm-12.col-md-6*2
+      </code>
+      <br />
+      <br /> Produira le code html suivant
+      <br />
+      <pre class="prettyprint lang-html">
+&lt;div class=&quot;container&quot;&gt;<br />
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-sm-12 col-md-6&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;col-sm-12 col-md-6&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-sm-12 col-md-6&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;col-sm-12 col-md-6&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</pre>
 
       <div class="separator"></div>
 
@@ -149,10 +182,12 @@
         <li>Validez avec la touche entré</li>
       </ul>
       <div class="centered">
-        <img src="img/color-picker.png" alt="Selecteur de couleurs"><br />
+        <img src="img/color-picker.png" alt="Selecteur de couleurs">
+        <br />
       </div>
 
-      <span class="param-label">Paramétres utiles</span><br />
+      <span class="param-label">Paramétres utiles</span>
+      <br />
       <ul>
         <li>
           <span class="param-name">Abbreviate Color Values :</span> Permet de réduire la taille textuelle de la valeur de la couleur.
@@ -184,7 +219,8 @@
         Ce paquet est très important, il permet de réindenter tout le code du fichier courrant simplement en pressant le raccourci clavier ctrl + alt + b. Une multitude de langages sont supportés.
       </p>
 
-      <span class="param-label">Paramétres utiles</span><br />
+      <span class="param-label">Paramétres utiles</span>
+      <br />
       <ul>
         <li>
           <span class="param-label">HTML</span>
@@ -204,9 +240,9 @@
       </p>
 
       <p>
-        Par exemple :<br />
-        Tapez "gi" et sur la touche entrée vous donnerez "document.getElementById('id');"<br />
-        Et "cl" donnera "console.log(obj);"
+        Par exemple :
+        <br /> Tapez "gi" et sur la touche entrée vous donnerez "document.getElementById('id');"
+        <br /> Et "cl" donnera "console.log(obj);"
       </p>
 
       <div class="separator"></div>
@@ -217,17 +253,20 @@
       </p>
 
       <p>
-        Pour ouvrir un terminale, cliquez sur le + dans le coin inférieur gauche d'atom.<br />
+        Pour ouvrir un terminale, cliquez sur le + dans le coin inférieur gauche d'atom.
+        <br />
         <img src="img/terminal-menu.png" alt="Menu des terminaux" />
       </p>
 
       <p>
-        Tout les terminaux ouverts s'afficheront à la suite de ce +.<br />
+        Tout les terminaux ouverts s'afficheront à la suite de ce +.
+        <br />
         <img src="img/opened-terminals.png" alt="Terminaux ouverts" />
       </p>
 
       <p>
-        Vous pouvez changer la couleur de l'icône de chaque terminaux avec un clic droit sur leur icône.<br />
+        Vous pouvez changer la couleur de l'icône de chaque terminaux avec un clic droit sur leur icône.
+        <br />
         <img src="img/terminals-with-colors.png" alt="Terminaux avec des couleurs" />
       </p>
 
@@ -237,6 +276,61 @@
           <span class="param-name">Close Terminal on Exit : </span> Ferme le terminale si le shell quitte. Cochez ce paramétre.
         </li>
       </ul>
+
+      <h2>Snippets</h2>
+      <p>
+        Atom dipose de snippets. Un snippet est un morceau de code qui peut être ajouté au code actuel en autocomplétant son préfixe. Vous pouvez déjà voir son utilisation quand vous tapez sur entrée après avoir écrit "html".
+        <br /> Vous avez la possibilité d'ajouter ou de réécrire des snippets déjà intégrés.
+        <br />
+      </p>
+
+      <p>
+        Pour ce faire, allez dans le menu "Edit" puis "Snippets...". Un nouveau fichier s'ouvre dans l'éditeur.
+        <br /> C'est ici que vous ajouterez les snippets.
+      </p>
+
+      <p>
+        Nous allons donc ajouter deux snippets. Le premier sera l'armature de base d'une page html classique, la deuxième, l'armature d'une page html disposant des imports bootstrap.
+      </p>
+
+      <p>
+        Ajoutez le code ci-contre au fichier snippets.cson précédement ouvert après les commentaires.
+      </p>
+
+      <pre class="prettyprint lang-scm">
+&#39;.text.html, .text.html .meta.scope.between-tag-pair, .text.html .punctuation.tag.begin&#39;:
+  &#39;HTML&#39;:
+    &#39;prefix&#39;: &#39;html&#39;
+    &#39;body&#39;: &#39;&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n\t&lt;head&gt;\n\t\t&lt;meta charset=&quot;utf-8&quot;&gt;\n\t\t&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;\n\t\t&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge&quot; /&gt;\n\t\t\n\t\t&lt;title&gt;$1&lt;/title&gt;\n\t&lt;/head&gt;\n\t\n\t&lt;body&gt;\n\t\t$2\n\t&lt;/body&gt;\n&lt;/html&gt;&#39;
+  &#39;bootstrap&#39;:
+    &#39;prefix&#39;: &#39;bootstrap&#39;
+    &#39;body&#39;: &#39;&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n\t&lt;head&gt;\n\t\t&lt;meta charset=&quot;utf-8&quot;&gt;\n\t\t&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;\n\t\t&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge&quot; /&gt;\n\t\t\n\t\t&lt;title&gt;$1&lt;/title&gt;\n\t\t\n\t\t&lt;link href=&quot;vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;\n\t\t&lt;link href=&quot;vendor/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css&quot; rel=&quot;stylesheet&quot;&gt;\n\t\t\n\t\t&lt;script src=&quot;vendor/jquery/jquery-3.2.1.min.js&quot;&gt;&lt;/script&gt;\n\t\t&lt;script src=&quot;vendor/bootstrap-3.3.7-dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;\n\t&lt;/head&gt;\n\t\n\t&lt;body&gt;\n\t\t$2\n\t&lt;/body&gt;\n&lt;/html&gt;&#39;
+</pre>
+
+      <p>
+        Disséquons ce charabia. En respectant l'indentation :
+      </p>
+
+      <pre>
+'Contexte dans lequel le snippet pourra être utilisé (ici html)'
+  'Nom du snippet 1 (s'affiche dans l'autocomplétion)'
+    'prefix': 'mot à taper pour ajouter le code après validation'
+    'body': 'le code qui sera ajouté après validation'
+  'Nom du snippet 2'
+    'prefix': '...'
+    'body': '...'
+  ...
+    </pre>
+
+      <p>
+        A part la définition du contexte, il n'y aucune difficultées pour ajouter de nouveaux snippets selon vos besoins.
+      </p>
+
+      <p>
+        Vous pouvez sauvegarder le fichier snippets.cson et essayer vos nouveaux snippets en tapant html et bootstrap puis entrée.<br />
+        Vous êtes maintenant prêt pour ajouter vos propres snippets!<br />
+        Bonne chance.
+      </p>
     </div>
   </body>
 
